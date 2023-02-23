@@ -1,0 +1,248 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
+  }
+
+  #navbarTogglerDemo01 li a i{
+    font-size: large;
+  }
+  #navbarTogglerDemo01{
+    background:linear-gradient(to right,#82d2ec,#051747); 
+    
+  
+  }
+  .navbar-toggler-icon{
+    border-radius: 1px;
+    background-color:orangered;
+  
+  }
+  #navbarTogglerDemo01 ul .dropdown-menu{
+    background:linear-gradient(to right,#82d2ec,#1b2d5f); 
+     
+   
+    color: white;
+  }
+  #link{
+    color: white;
+    font-family: 'Marcellus SC', serif;
+  
+  }
+  #navbarTogglerDemo01 li a{
+    font-size:medium;
+    font-weight: bolder;
+  }
+  #link ul li .active{
+    background-color:orangered;
+    border-radius: 2px;
+    color: white;
+    }
+    #navbarTogglerDemo01 li{
+    padding:0 30px;
+  }
+  
+  #home ul li a:nth-child(1):hover,li a:nth-child(2):hover,li a :nth-child(5):hover,li a :nth-child(6):hover{
+    color: white;
+    border-radius: 2px;
+  
+    background-color: orangered;
+  
+    transition: all 0.3s ease;
+  }
+  
+  
+  #home{
+    color: white;
+    font-weight: bolder;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background-image: url("Images/sec-.jpg");
+     
+      background-position: center;
+      background-size: cover;
+    
+  }
+    .intro{
+      justify-content: center;
+      align-items: center;
+    }
+    .saveethalogo{
+      width: 550px;
+      height: 140px;
+    }
+    .seclogo{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      .coll{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      
+      .intro h3,h4,h2,h3{
+        text-transform: uppercase;
+        font-weight: bold;
+        
+      
+      }
+.seclogo{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.coll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.intro h3,h4,h2,h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  
+
+}
+#Faculties{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+  }      
+  #Faculties h3{
+    font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 10%;
+
+  
+  }
+  #Faculties p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: large;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+#Faculties .comm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+ 
+
+  footer{
+    padding: 2% 0 0 0;
+      color: white;
+  }
+  footer address{
+    font-size: 105%;
+  }
+  footer p{
+    margin: 2% 0 0 0;
+    text-align: center;
+  }
+  .bi-telephone{
+    font-size: 150%;
+  }
+  .bi-envelope{
+    font-size: 150%;
+  }
+  .phone{
+    font-size: 170%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 105%;
+    color: whitesmoke;
+    pointer-events: none;
+  }
+  .bi{
+    vertical-align: middle;
+  
+  }
+  .map iframe{
+    width: 100;
+    height: 100;
+  }
+  #location{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .map{
+    margin: 0 10px;
+    display: inline-block;
+    font-size: medium;
+    text-align: left;
+  }
+  #contactus{
+    background-image: url("Images/bgsec.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width: 411px) and (max-width: 430px){
+    .saveethalogo{
+      width: 355px;
+      height: 80px;
+      object-fit: contain;
+    }
+    #location .map{
+      display: inline-block;
+      justify-content:center ;
+      align-items: center;
+      text-align: center;
+     }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .saveethalogo{
+      width: 355px;
+      height: 80px;
+      object-fit: contain;
+    }
+    .map{
+      padding-bottom: 4%;
+    }
+  #location .map{    display: inline-block;
+      justify-content:center ;
+      align-items: center;
+     }
+    }
+
+    .reveal{
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition:3s all ease;
+    }
+    
+    .reveal.activee{
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+
+
+
+
+      
